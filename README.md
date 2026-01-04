@@ -1,1 +1,2 @@
-# Strassens_algo_comparison
+### Strassen's Algorithm Comparison
+##Algorithm Overview:
