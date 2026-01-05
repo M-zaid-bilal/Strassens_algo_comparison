@@ -41,20 +41,6 @@ The following tables and console outputs summarize the performance of Strassen's
 
 *(Note: "Total Time (s)" is for 10 iterations, "Average Time (nanoseconds)" is per single iteration, rounded to nearest whole number.)*
 
-### Console Outputs:
-
-**R Output:**
-![R Console Output](r/r_output.png)
-
-**C++ Output:**
-![C++ Console Output](cpp/cpp_output.png)
-
-**Python Output:**
-![Python Console Output](python/python_output.png)
-
-**Matlab Output:**
-![Matlab Console Output](matlab/matlab_output.png)
-
 ## Analysis and Discussion (Phase 1)
 
 The results are highly illustrative of the nuances of "language performance" and the impact of underlying implementations:
