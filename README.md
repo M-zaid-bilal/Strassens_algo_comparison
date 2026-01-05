@@ -166,11 +166,12 @@ To reproduce the benchmark results and plots:
     cd Strassens-Performance
     ```
 2.  **Ensure necessary tools are installed:**
-    *   C++ compiler (e.g., `g++` or Visual Studio MSVC)
-    *   Python 3.x with `pandas`, `numpy`, `matplotlib` (`pip install pandas numpy matplotlib`)
+    *   C++ compiler
+    *   Python 3.x with `pandas`, `numpy`, `matplotlib`
     *   R environment
     *   Matlab environment
-    *   **Eigen Library:** Download Eigen (e.g., `eigen-3.4.0.zip` from eigen.tuxfamily.org), extract it. For C++ compilation, you'll need to specify the parent directory of the `Eigen` folder using the `-I` flag (e.g., `-I/path/to/eigen/parent/directory` for `g++`, or configure "Include Directories" in Visual Studio Project Properties).
+    *   **Eigen Library:** Download Eigen
+   
 3.  **Run Benchmarks:**
     *   **C++ Pure:** `cd cpp && g++ Strassens_algorithm.cpp -o strassens_cpp -O3 -std=c++17 && ./strassens_cpp`
     *   **C++ Eigen:** `cd cpp && g++ Matmult_Eigen.cpp -o strassens_eigen_cpp -O3 -std=c++17 -I/path/to/eigen/parent/directory && ./strassens_eigen_cpp`
@@ -182,6 +183,3 @@ To reproduce the benchmark results and plots:
     *   The plotting code is provided as a Jupyter Notebook `visualizing-implementations.ipynb`.
     *   Open this notebook in Jupyter Lab/Notebook and run all cells. The plots will be displayed and saved to the `results/` directory.
 
-*   **Eigen Library Version:** [e.g., 3.4.0]
-
-## 5. Repository Structure
